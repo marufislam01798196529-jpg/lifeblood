@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "117153640941",
+    "firebase_url": "https://test-only-12cb4-default-rtdb.firebaseio.com",
+    "project_id": "test-only-12cb4",
+    "storage_bucket": "test-only-12cb4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117153640941:android:7e3bd4b3f17e3aa9b5b7e4",
+        "android_client_info": {
+          "package_name": "com.dinalamin.lifeblood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8cMGJw9gAkSKXM-cyJv0JucACiBpC6DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117153640941:android:e7c327c6b824f192b5b7e4",
+        "android_client_info": {
+          "package_name": "com.h24.calculator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8cMGJw9gAkSKXM-cyJv0JucACiBpC6DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117153640941:android:f0d0c3f30e5c6451b5b7e4",
+        "android_client_info": {
+          "package_name": "com.hr.rest.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8cMGJw9gAkSKXM-cyJv0JucACiBpC6DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117153640941:android:ba492026a12a3f37b5b7e4",
+        "android_client_info": {
+          "package_name": "com.s4xtopup.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8cMGJw9gAkSKXM-cyJv0JucACiBpC6DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
