@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LifeBlood</string>
+    <string name="tagline">Saving Lives Together</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_find">Find</string>
+    <string name="nav_request">Request</string>
+    <string name="nav_spacer">\u00A0</string>
+    <string name="nav_donors">Donors</string>
+    <string name="cd_notifications">Urgent requests</string>
+    <string name="nav_feed">Feed</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Auth -->
+    <string name="auth_welcome_back">Welcome back</string>
+    <string name="auth_welcome_back_sub">Sign in to find donors and respond to requests.</string>
+    <string name="auth_create_account">Create your account</string>
+    <string name="auth_create_account_sub">Join the community that saves lives, one donation at a time.</string>
+    <string name="auth_login">Sign in</string>
+    <string name="auth_register">Create account</string>
+    <string name="auth_tab_login">Sign in</string>
+    <string name="auth_tab_register">Register</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_create_password">Create password</string>
+    <string name="hint_full_name">Full name</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="hint_district">District</string>
+    <string name="label_i_am">I am a</string>
+    <string name="role_donor">Donor</string>
+    <string name="role_receiver">Receiver</string>
+    <string name="label_blood_group">Blood group</string>
+    <string name="error_blood_required">Select a blood group</string>
+    <string name="error_name_required">Enter your full name</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+    <string name="error_password_required">Enter your password</string>
+    <string name="error_password_short">Use at least 6 characters</string>
+    <string name="error_phone_invalid">Enter a valid phone number</string>
+    <string name="error_district_required">Select your district</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_credentials">Incorrect email or password</string>
+    <string name="error_no_network">No internet connection. Please try again.</string>
+    <string name="error_email_taken">An account with this email already exists</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_load">Could not load data. Pull down to retry.</string>
+
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="greeting_night">Good night</string>
+
+    <!-- Home -->
+    <string name="home_stat_active">Active</string>
+    <string name="home_stat_donors">Donors</string>
+    <string name="home_stat_fulfilled">Fulfilled</string>
+    <string name="eligibility_label">Donation eligibility</string>
+    <string name="eligibility_ready">Ready to donate</string>
+    <string name="eligibility_ready_sub_none">No donation recorded yet</string>
+    <string name="eligibility_ready_sub">Last donated %1$d days ago</string>
+    <string name="eligibility_wait">Available in %1$d days</string>
+    <string name="eligibility_wait_sub">Last donated %1$d days ago. Rest for at least 90 days.</string>
+    <string name="home_services">Services</string>
+    <string name="home_tools">Tools</string>
+    <string name="svc_feed_title">Blood feed</string>
+    <string name="svc_feed_sub">Live requests</string>
+    <string name="svc_mine_title">My requests</string>
+    <string name="svc_mine_sub">Status and edits</string>
+    <string name="svc_benefits_title">Benefits</string>
+    <string name="svc_benefits_sub">Why donate</string>
+    <string name="svc_team_title">Volunteers</string>
+    <string name="svc_team_sub">Our team</string>
+    <string name="tool_compat">Compatibility</string>
+    <string name="tool_eligible">Can I donate?</string>
+    <string name="tool_emergency">Emergency 999</string>
+    <string name="tool_invite">Invite</string>
+    <string name="home_safety_note">Meet donors at a hospital or blood bank. Blood is never sold on LifeBlood.</string>
+    <string name="home_hero_title">Every drop counts</string>
+    <string name="home_hero_subtitle">Someone nearby needs your help today.</string>
+    <string name="home_hero_cta">Request blood</string>
+    <string name="home_stat_blood">Blood group</string>
+    <string name="home_stat_donations">Donations</string>
+    <string name="home_quick_actions">Quick actions</string>
+    <string name="home_find_donor">Find donors</string>
+    <string name="home_post_request">New request</string>
+    <string name="home_live_feed">Live feed</string>
+    <string name="home_recent">Recent requests</string>
+    <string name="see_all">See all</string>
+    <string name="empty_requests_title">No active requests</string>
+    <string name="empty_requests_body">New blood requests will show up here as soon as they are posted.</string>
+
+    <!-- Search -->
+    <string name="search_title">Find blood donors</string>
+    <string name="search_query_hint">Name, phone or area</string>
+    <string name="all_blood_groups">All groups</string>
+    <string name="all_districts">All districts</string>
+    <string name="hint_date_short">Date needed</string>
+    <string name="search_subtitle">Search by name, blood group or district</string>
+    <string name="search_district_hint">District</string>
+    <string name="search_reset">Reset</string>
+    <string name="search_searching">Searching for donors…</string>
+    <string name="search_summary">%1$d donors found</string>
+    <string name="search_available_now">%1$d available now</string>
+    <string name="empty_donors_title">No donors found</string>
+    <string name="empty_donors_body">Try a different blood group or district.</string>
+    <string name="any">Any</string>
+
+    <!-- Request -->
+    <string name="request_title">Blood Requests</string>
+    <string name="request_tab_new">New request</string>
+    <string name="request_tab_mine">My requests</string>
+    <string name="request_emergency_title">Emergency Request?</string>
+    <string name="request_emergency_sub">Priority notification for donors.</string>
+    <string name="request_section_patient">Patient details</string>
+    <string name="request_section_need">Blood needed</string>
+    <string name="request_section_contact">Contact</string>
+    <string name="hint_patient">Patient name</string>
+    <string name="hint_problem">Condition or reason</string>
+    <string name="hint_hospital">Hospital name</string>
+    <string name="hint_date_needed">Date needed</string>
+    <string name="hint_contact_number">Contact number</string>
+    <string name="hint_note">Additional information (optional)</string>
+    <string name="request_post">Post request</string>
+    <string name="request_update">Update request</string>
+    <string name="request_editing">Editing request</string>
+    <string name="request_cancel_edit">Cancel</string>
+    <string name="empty_mine_title">No requests yet</string>
+    <string name="empty_mine_body">Requests you post will be listed here so you can edit or remove them.</string>
+    <string name="select_date">Select date needed</string>
+
+    <string name="dialog_delete_request_title">Delete request?</string>
+    <string name="dialog_delete_request_body">This request will be removed for everyone. This cannot be undone.</string>
+    <string name="toast_request_deleted">Request deleted</string>
+    <string name="toast_request_updated">Request updated</string>
+    <string name="toast_request_posted">Request posted</string>
+    <string name="toast_emergency_posted">Emergency request posted</string>
+    <string name="toast_now_active">You are now active</string>
+    <string name="toast_now_inactive">You are now inactive</string>
+
+    <!-- Feed -->
+    <string name="feed_title">Blood feed</string>
+    <string name="live">Live</string>
+    <string name="feed_filter_all">All</string>
+    <string name="feed_filter_urgent">Urgent</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_lives">Lives impacted</string>
+    <string name="profile_sec_status">Donation status</string>
+    <string name="profile_sec_achievement">Achievement</string>
+    <string name="profile_sec_activity">Activity</string>
+    <string name="profile_sec_account">Account</string>
+    <string name="profile_my_requests">My blood requests</string>
+    <string name="profile_my_requests_sub">Edit or close requests you posted</string>
+    <string name="profile_edit">Edit profile</string>
+    <string name="profile_edit_sub">Name, phone and district</string>
+    <string name="profile_share">Share my donor card</string>
+    <string name="profile_share_sub">Let others know your blood group</string>
+    <string name="profile_invite">Invite friends</string>
+    <string name="profile_invite_sub">Help grow the donor network</string>
+    <string name="profile_safety">Safety &amp; privacy</string>
+    <string name="role_label_donor">Donor</string>
+    <string name="role_label_receiver">Receiver</string>
+    <string name="profile_donations">Donations</string>
+    <string name="profile_status">Status</string>
+    <string name="profile_available_title">Available to donate</string>
+    <string name="profile_available_sub">Show me in donor search results</string>
+    <string name="profile_history">Donation history</string>
+    <string name="history_saved">Saved: %1$s</string>
+    <string name="profile_history_empty">No donations recorded yet.</string>
+    <string name="profile_contact">Contact details</string>
+    <string name="profile_logout">Log out</string>
+    <string name="profile_logout_confirm_title">Sign out?</string>
+    <string name="profile_logout_confirm_body">You will need to sign in again to continue.</string>
+    <string name="status_active">Active</string>
+    <string name="status_inactive">Inactive</string>
+    <string name="available">Available</string>
+    <string name="not_available">Unavailable</string>
+
+    <string name="tier_new">New donor</string>
+    <string name="tier_bronze">Bronze donor</string>
+    <string name="tier_silver">Silver donor</string>
+    <string name="tier_gold">Gold donor</string>
+    <string name="tier_top">You have reached the top tier. Thank you!</string>
+    <string name="tier_to_next">%1$d more donation to reach %2$s</string>
+
+    <string name="tools_compat_title">Blood compatibility</string>
+    <string name="tools_compat_body">Who each blood group can donate to:\n\nO-  →  everyone\nO+  →  O+, A+, B+, AB+\nA-  →  A-, A+, AB-, AB+\nA+  →  A+, AB+\nB-  →  B-, B+, AB-, AB+\nB+  →  B+, AB+\nAB-  →  AB-, AB+\nAB+  →  AB+ only</string>
+    <string name="tools_eligible_title">Can I donate?</string>
+    <string name="tools_eligible_body">Common guidelines. The blood bank\'s screening makes the final decision.\n\n• Age 18 to 60 years\n• Weight at least 50 kg\n• Feeling healthy today, no fever or infection\n• At least 90 days since your last donation\n• Eat and drink well before donating</string>
+    <string name="tools_benefits_title">Why donate</string>
+    <string name="tools_benefits_body">• One donation can help save up to three lives\n• A quick check of pulse, blood pressure and haemoglobin before you donate\n• Your body replaces the donated blood within weeks\n• You become part of a network that responds in emergencies</string>
+    <string name="tools_team_title">Our volunteers</string>
+    <string name="tools_team_empty">No volunteers have been added yet.</string>
+    <string name="tools_safety_title">Safety and privacy</string>
+    <string name="tools_safety_body">• Meet donors at a hospital or blood bank\n• Blood is never sold on LifeBlood\n• Your phone number is only shown to signed-in members\n• You can hide yourself from search at any time using the availability switch</string>
+    <string name="tools_close">Close</string>
+    <string name="invite_message">Join me on LifeBlood, the community that connects blood donors with people in need.</string>
+    <string name="donor_card_message">I am a blood donor on LifeBlood. Blood group: %1$s, District: %2$s. Contact me if you need help.</string>
+    <string name="edit_profile_title">Edit profile</string>
+    <string name="toast_profile_saved">Profile updated</string>
+    <string name="action_save">Save</string>
+
+    <!-- Sheets -->
+    <string name="sheet_call_now">Call now</string>
+    <string name="sheet_hospital">Hospital</string>
+    <string name="sheet_location">Location</string>
+    <string name="sheet_date_needed">Date needed</string>
+    <string name="sheet_contact">Contact</string>
+    <string name="sheet_note">Note</string>
+    <string name="sheet_urgent">Urgent</string>
+    <string name="emergency">Emergency</string>
+    <string name="sheet_no_details">No details provided</string>
+    <string name="sheet_no_note">No additional note.</string>
+    <string name="sheet_donations">Donations</string>
+
+
+    <string name="dialog_cannot_undo">This cannot be undone.</string>
+    <string name="toast_deleted">Deleted successfully</string>
+
+    <!-- Generic -->
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_add">Add</string>
+    <string name="action_call">Call</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_call">Call</string>
+    <string name="cd_logo">LifeBlood logo</string>
+    <string name="cd_expand">Expand</string>
+    <string name="cd_logout">Sign out</string>
+    <string name="cd_close">Close</string>
+
+    <plurals name="active_requests">
+        <item quantity="one">%d active request</item>
+        <item quantity="other">%d active requests</item>
+    </plurals>
+    <plurals name="item_count">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+</resources>
