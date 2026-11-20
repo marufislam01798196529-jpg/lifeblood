@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.LifeBlood" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colour roles -->
+        <item name="colorPrimary">@color/lb_primary</item>
+        <item name="colorOnPrimary">@color/lb_on_primary</item>
+        <item name="colorPrimaryContainer">@color/lb_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/lb_on_primary_container</item>
+        <item name="colorSecondary">@color/lb_primary</item>
+        <item name="colorOnSecondary">@color/lb_on_primary</item>
+        <item name="colorSecondaryContainer">@color/lb_primary_container</item>
+        <item name="colorOnSecondaryContainer">@color/lb_on_primary_container</item>
+        <item name="colorSurface">@color/lb_surface</item>
+        <item name="colorOnSurface">@color/lb_ink</item>
+        <item name="colorSurfaceVariant">@color/lb_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/lb_ink_muted</item>
+        <item name="colorOutline">@color/lb_outline</item>
+        <item name="colorOutlineVariant">@color/lb_outline_variant</item>
+        <item name="colorError">@color/lb_error</item>
+        <item name="colorErrorContainer">@color/lb_error_container</item>
+        <item name="android:colorBackground">@color/lb_background</item>
+        <item name="android:windowBackground">@color/lb_background</item>
+
+        <!-- System bars -->
+        <item name="android:statusBarColor">@color/lb_hero_start</item>
+        <item name="android:navigationBarColor">@color/lb_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">@bool/lb_light_bars</item>
+
+        <!-- Typography -->
+        <item name="fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+
+        <!-- Component defaults -->
+        <item name="materialButtonStyle">@style/Widget.LB.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.LB.Card</item>
+        <item name="textInputStyle">@style/Widget.LB.TextInput</item>
+        <item name="bottomNavigationStyle">@style/Widget.LB.BottomNav</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.LB.BottomSheetDialog</item>
+        <item name="android:textColorPrimary">@color/lb_ink</item>
+        <item name="android:textColorSecondary">@color/lb_ink_muted</item>
+    </style>
+
+    <!-- Splash: full-bleed brand gradient -->
+    <style name="Theme.LifeBlood.Splash">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="android:statusBarColor">@color/lb_hero_start</item>
+        <item name="android:navigationBarColor">@color/lb_hero_end</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+    </style>
+
+    <!-- Auth: brand header on top, surface sheet below -->
+    <style name="Theme.LifeBlood.Auth">
+        <item name="android:windowBackground">@color/lb_surface</item>
+        <item name="android:statusBarColor">@color/lb_hero_start</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <style name="ThemeOverlay.LB.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.LB.BottomSheet</item>
+    </style>
+</resources>
