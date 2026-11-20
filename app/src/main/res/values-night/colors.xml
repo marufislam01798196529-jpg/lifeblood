@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lb_primary">#6CC6DB</color>
+    <color name="lb_on_primary">#00323F</color>
+    <color name="lb_primary_container">#0F4A5C</color>
+    <color name="lb_on_primary_container">#D2EFF6</color>
+    <color name="lb_hero_start">#0C5C73</color>
+    <color name="lb_hero_end">#083D4F</color>
+
+    <color name="lb_background">#0D1519</color>
+    <color name="lb_surface">#152026</color>
+    <color name="lb_surface_variant">#1E2B33</color>
+    <color name="lb_outline">#3A4B56</color>
+    <color name="lb_outline_variant">#263540</color>
+
+    <color name="lb_ink">#E6EEF2</color>
+    <color name="lb_ink_muted">#A5B5C0</color>
+    <color name="lb_ink_subtle">#7A8B97</color>
+
+    <color name="lb_success">#7ADCA3</color>
+    <color name="lb_success_container">#153A29</color>
+    <color name="lb_error">#FF8A8A</color>
+    <color name="lb_error_container">#4A1A1E</color>
+
+    <color name="lb_ripple">#296CC6DB</color>
+    <color name="lb_blood">#FF8A8A</color>
+    <color name="lb_blood_container">#4A1A1E</color>
+    <color name="lb_warning">#F2B35C</color>
+    <color name="lb_warning_container">#3D2E10</color>
+</resources>
