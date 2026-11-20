@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lb_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/appHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lb_hero_start"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="6dp">
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/bg_logo_square"
+            android:contentDescription="@string/cd_logo"
+            android:elevation="2dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_logo_mark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/plus_jakarta_sans_light"
+            android:text="Life"
+            android:textColor="@color/lb_on_hero"
+            android:textSize="19sp"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood"
+            android:textColor="@color/lb_on_hero"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:ignore="HardcodedText" />
+
+        <com.dinalamin.lifeblood.ui.util.EcgLineView
+            android:id="@+id/headerEcg"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:importantForAccessibility="no" />
+
+        <ImageButton
+            android:id="@+id/headerBell"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/bg_header_glass_btn"
+            android:contentDescription="@string/cd_notifications"
+            android:padding="9dp"
+            android:src="@drawable/ic_bell"
+            android:tint="@color/lb_on_hero" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:translationZ="0dp">
+
+        <FrameLayout
+            android:id="@+id/navCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_nav_card"
+            android:clipToOutline="true"
+            android:elevation="8dp">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNav"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                app:backgroundTint="@color/lb_surface"
+                app:itemActiveIndicatorStyle="@style/Widget.LB.NoIndicator"
+                app:itemBackground="@drawable/bg_nav_item"
+                app:itemIconSize="22dp"
+                app:itemPaddingBottom="6dp"
+                app:itemPaddingTop="6dp"
+                app:itemTextAppearanceActive="@style/TextAppearance.LB.NavLabel.Active"
+                app:itemTextAppearanceInactive="@style/TextAppearance.LB.NavLabel"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/bottom_nav_menu" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabRequest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/nav_request"
+                app:backgroundTint="@color/lb_primary"
+                app:elevation="2dp"
+                app:fabCustomSize="40dp"
+                app:maxImageSize="20dp"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.LB.Fab"
+                app:srcCompat="@drawable/ic_plus"
+                app:tint="@color/lb_on_primary" />
+        </FrameLayout>
+
+    </FrameLayout>
+</LinearLayout>
