@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============ Typography ============ -->
+    <style name="TextAppearance.LB.Display" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">@color/lb_ink</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans_extrabold</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+
+    <style name="TextAppearance.LB.Headline" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/lb_ink</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.LB.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/lb_ink</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.LB.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/lb_ink</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.LB.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/lb_ink_muted</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.LB.Overline" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textColor">@color/lb_ink_muted</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+    <style name="TextAppearance.LB.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="TextAppearance.LB.Chip" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- ============ Cards ============ -->
+    <style name="Widget.LB.Card" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/lb_surface</item>
+        <item name="strokeColor">@color/lb_outline_variant</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="cardElevation">0dp</item>
+        <item name="rippleColor">@color/lb_ripple</item>
+    </style>
+
+    <!-- ============ Buttons ============ -->
+    <style name="Widget.LB.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.LB.Button</item>
+        <item name="cornerRadius">@dimen/field_radius</item>
+    </style>
+
+    <style name="Widget.LB.Button.Tonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.LB.Button</item>
+        <item name="cornerRadius">@dimen/field_radius</item>
+    </style>
+
+    <style name="Widget.LB.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.LB.Button</item>
+        <item name="cornerRadius">@dimen/field_radius</item>
+        <item name="strokeColor">@color/lb_outline</item>
+    </style>
+
+    <style name="Widget.LB.Button.Segment" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">44dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.LB.Button</item>
+        <item name="strokeColor">@color/lb_outline</item>
+    </style>
+
+    <style name="Widget.LB.Button.Destructive" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.LB.Button</item>
+        <item name="android:textColor">@color/lb_error</item>
+        <item name="iconTint">@color/lb_error</item>
+        <item name="strokeColor">@color/lb_error</item>
+        <item name="rippleColor">@color/lb_error_container</item>
+        <item name="cornerRadius">@dimen/field_radius</item>
+    </style>
+
+    <style name="Widget.LB.Button.CompactText" parent="Widget.Material3.Button.TextButton">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.LB.Button</item>
+    </style>
+
+    <style name="Widget.LB.IconButton" parent="Widget.Material3.Button.IconButton.Filled.Tonal">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="iconTint">@color/lb_primary</item>
+        <item name="backgroundTint">@color/lb_primary_container</item>
+        <item name="cornerRadius">14dp</item>
+    </style>
+
+    <style name="Widget.LB.CallButton" parent="Widget.Material3.Button.IconButton.Filled">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minWidth">52dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="backgroundTint">@color/lb_success</item>
+        <item name="iconTint">@color/white</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="Widget.LB.IconButton.Ghost" parent="Widget.Material3.Button.IconButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minWidth">44dp</item>
+        <item name="android:minHeight">44dp</item>
+        <item name="iconTint">@color/lb_ink_muted</item>
+    </style>
+
+    <style name="Widget.LB.ExtendedFab" parent="Widget.Material3.ExtendedFloatingActionButton.Icon.Primary">
+        <item name="backgroundTint">@color/lb_primary</item>
+        <item name="iconTint">@color/lb_on_primary</item>
+        <item name="android:textColor">@color/lb_on_primary</item>
+        <item name="rippleColor">@color/lb_ripple</item>
+    </style>
+
+    <!-- ============ Inputs ============ -->
+    <style name="Widget.LB.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/field_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/field_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/field_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/field_radius</item>
+        <item name="boxStrokeColor">@color/lb_input_stroke</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="hintTextColor">@color/lb_primary</item>
+        <item name="android:textColorHint">@color/lb_ink_subtle</item>
+        <item name="startIconTint">@color/lb_ink_muted</item>
+        <item name="endIconTint">@color/lb_ink_muted</item>
+    </style>
+
+    <style name="Widget.LB.TextInput.Dropdown" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxCornerRadiusTopStart">@dimen/field_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/field_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/field_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/field_radius</item>
+        <item name="boxStrokeColor">@color/lb_input_stroke</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="hintTextColor">@color/lb_primary</item>
+        <item name="android:textColorHint">@color/lb_ink_subtle</item>
+        <item name="startIconTint">@color/lb_ink_muted</item>
+        <item name="endIconTint">@color/lb_ink_muted</item>
+    </style>
+
+    <!-- ============ Chips ============ -->
+    <style name="ShapeAppearanceOverlay.LB.Chip" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="Widget.LB.Chip.Blood" parent="Widget.Material3.Chip.Filter">
+        <item name="android:checkable">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.LB.Chip</item>
+        <item name="android:textColor">@color/lb_chip_text</item>
+        <item name="chipBackgroundColor">@color/lb_chip_bg</item>
+        <item name="chipStrokeColor">@color/lb_chip_stroke</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipMinHeight">40dp</item>
+        <item name="ensureMinTouchTargetSize">false</item>
+        <item name="rippleColor">@color/lb_ripple</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.LB.Chip</item>
+    </style>
+
+    <!-- ============ Navigation ============ -->
+    <style name="Widget.LB.BottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/lb_surface</item>
+        <item name="itemIconTint">@color/lb_nav_item</item>
+        <item name="itemTextColor">@color/lb_nav_item</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="TextAppearance.LB.NavLabel" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textSize">10.5sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.LB.NavLabel.Active">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.LB.NoIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.LB.TextInput.OnHero" parent="Widget.Material3.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxBackgroundColor">@color/lb_surface</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="boxStrokeColor">@android:color/transparent</item>
+        <item name="startIconTint">@color/lb_primary</item>
+        <item name="endIconTint">@color/lb_ink_muted</item>
+        <item name="android:textColorHint">@color/lb_ink_muted</item>
+        <item name="hintTextColor">@color/lb_ink_muted</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay.LB.Fab" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">14dp</item>
+    </style>
+
+    <!-- ============ Bottom sheet ============ -->
+    <style name="ShapeAppearanceOverlay.LB.BottomSheet" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">28dp</item>
+        <item name="cornerSizeTopRight">28dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <style name="Widget.LB.BottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">@color/lb_surface</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.LB.BottomSheet</item>
+    </style>
+
+    <!-- ============ Small building blocks ============ -->
+    <style name="Widget.LB.SectionTitle" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.LB.Title</item>
+    </style>
+
+    <style name="Widget.LB.InfoRowIcon" parent="">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/bg_icon_tonal_round</item>
+        <item name="android:tint">@color/lb_primary</item>
+    </style>
+</resources>
