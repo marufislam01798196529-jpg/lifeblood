@@ -1,43 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Brand -->
-    <color name="lb_primary">#0F6F89</color>
-    <color name="lb_on_primary">#FFFFFF</color>
-    <color name="lb_primary_container">#E0F1F5</color>
-    <color name="lb_on_primary_container">#07445A</color>
-    <color name="lb_hero_start">#0F7088</color>
-    <color name="lb_hero_end">#0A5068</color>
-
-    <!-- Surfaces -->
-    <color name="lb_background">#F1F6F9</color>
-    <color name="lb_surface">#FFFFFF</color>
-    <color name="lb_surface_variant">#E9EFF3</color>
-    <color name="lb_outline">#D3DEE5</color>
-    <color name="lb_outline_variant">#E2EAEF</color>
-
-    <!-- Text -->
-    <color name="lb_ink">#11263A</color>
-    <color name="lb_ink_muted">#5F7080</color>
-    <color name="lb_ink_subtle">#93A1AE</color>
-
-    <!-- Status -->
-    <color name="lb_success">#15803D</color>
-    <color name="lb_success_container">#DFF5E6</color>
-    <color name="lb_error">#C62828</color>
-    <color name="lb_error_container">#FDEBEB</color>
-
-    <!-- Misc -->
-    <color name="lb_ripple">#1F0F6F89</color>
-    <color name="lb_on_hero">#FFFFFF</color>
-    <color name="lb_on_hero_muted">#CDE6EC</color>
-    <color name="lb_hero_glass">#2EFFFFFF</color>
-    <color name="lb_hero_decor">#14FFFFFF</color>
-    <color name="lb_scrim">#52000000</color>
-
+    <color name="navy">#090F1D</color>
+    <color name="surface">#141F33</color>
+    <color name="surface2">#1A2942</color>
+    <color name="blue">#398BFF</color>
+    <color name="cyan">#00D5C5</color>
     <color name="white">#FFFFFF</color>
-    <color name="black">#000000</color>
-    <color name="lb_blood">#C62828</color>
-    <color name="lb_blood_container">#FDEBEB</color>
-    <color name="lb_warning">#B45309</color>
-    <color name="lb_warning_container">#FEF0D7</color>
+    <color name="muted">#AAB8CC</color>
 </resources>
